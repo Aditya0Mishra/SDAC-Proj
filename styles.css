@@ -1,0 +1,275 @@
+body {
+  background-color: #d4cdc3;
+}
+
+.navigation {
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-item {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  background-color: #262626;
+  color: white;
+  height: auto;
+  border-radius: 40px;
+  font-weight: 300;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #262626ee !important;
+}
+
+.bannertitle {
+  z-index: -1;
+  font-size: 15rem;
+  margin: 0;
+  line-height: 0.9;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  -webkit-text-stroke: 1px #373636;
+  -webkit-text-fill-color: transparent;
+}
+
+.typesOfProtein {
+  background-color: #d4cdc3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bgType {
+  color: #52525272;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 10rem;
+  right: 3%;
+  font-family: "Bebas Neue", sans-serif;
+  -webkit-text-stroke: 1px #373636;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+
+.modalTypesofProtein {
+  background-color: #262626;
+  width: 98%;
+  border-radius: 30px;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.modelTypesofContent {
+  position: relative;
+  align-items: center;
+}
+
+i {
+  font-size: 12rem;
+  color: #d4cdc3;
+}
+
+.waka {
+  z-index: 0;
+  height: 25%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.wakao {
+  z-index: 0;
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sourceHeader {
+  font-size: 8rem;
+  font-family: "Bebas Neue", sans-serif;
+  -webkit-text-stroke: 1px #373636;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 8rem;
+}
+
+.textt {
+  letter-spacing: 10px;
+  font-size: 17rem;
+  font-weight: 800;
+  font-family: "Bebas Neue", sans-serif;
+  -webkit-text-stroke: 1px #373636;
+  -webkit-text-fill-color: #d4cdc3;
+}
+footer {
+  width: 100%;
+  line-height: 2;
+}
+
+.footerC {
+  width: 100%;
+  padding: 50px;
+  color: #d4cdc3;
+  background-color: #262626;
+}
+
+/* blogpage */
+
+.blogcard {
+  background-color: #262626;
+  color: white;
+}
+
+/* carousel */
+
+.carousel-item {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-item > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.carousel-caption {
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.info {
+  width: 60%;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.customCarousel {
+  padding: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .bannertitle {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+  .sourceHeader {
+    font-size: 5rem;
+  }
+
+  .sourceCon {
+    display: none;
+  }
+
+  .aboutUsC {
+    justify-content: center !important;
+    font-size: 3rem !important;
+    line-height: 1;
+  }
+  .modalTypesofProtein {
+    width: 99%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  i {
+    font-size: 8rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bannertitle {
+    font-size: 11rem;
+  }
+
+  .sourceHeader {
+    font-size: 6rem;
+  }
+
+  .textt {
+    font-size: 8rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bannertitle {
+    font-size: 13rem;
+  }
+  .sourceHeader {
+    font-size: 6rem;
+  }
+  .textt {
+    font-size: 10rem;
+  }
+  .aboutUsC {
+    line-height: 1;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bannertitle {
+    font-size: 9.6rem;
+  }
+  .sourceHeader {
+    font-size: 8rem;
+  }
+  .textt {
+    font-size: 10rem;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bannertitle {
+    font-size: 16rem;
+  }
+  .sourceHeader {
+    font-size: 8rem;
+  }
+  .textt {
+    font-size: 14rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .bannertitle {
+    font-size: 25rem;
+  }
+
+  i {
+    font-size: 16rem;
+  }
+  .sourceHeader {
+    margin-top: 5rem;
+    font-size: 10rem;
+  }
+  .textt {
+    font-size: 30rem;
+  }
+
+  .bgtext > img {
+    width: 100vw;
+  }
+}
